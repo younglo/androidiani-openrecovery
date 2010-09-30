@@ -11,11 +11,6 @@ The open recovery, has a clear menu, easy to use, for Eclair modding and one for
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
 So starting from *Eclair Modding Menu*:
 Entering this menu you'll see:
 
