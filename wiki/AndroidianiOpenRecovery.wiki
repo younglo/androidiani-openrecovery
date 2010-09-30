@@ -112,3 +112,6 @@ To install a theme, before using the recovery menu, we have to load a theme:
 Under the Directory /sdcard/OpenRecovery, there is a directory theme;
 IF you want to install a eclair theme; go to the "Eclair" folder and put the files in their respective directories,
 IF you want a Froyo theme, go to Froyo and put files in their respective directories.
+
+
+By 89luca89
