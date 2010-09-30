@@ -1,0 +1,119 @@
+#summary One-sentence summary of this page.
+
+HowTo & explanation of OpenRecovery Features
+
+= Introduction =
+
+This OpenRecovery is based on the latest 1.42 build from Skrilax_CZ, all credits for the creation of original openrecovery goes to him!
+Our OpenRecovery is only a Mod, specifically for our milestones, and add a lot of features, for modding both eclair and froyo (Motofrezy an Cyanogen mod).
+The open recovery, has a clear menu, easy to use, for Eclair modding and one for Froyo modding.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+So starting from *Eclair Modding Menu*:
+Entering this menu you'll see:
+
+_install memhack_:
+Installs the hack to move Dalvik cache from /data to /cache, freeing a lot of space for apps!!
+
+_install Conservative governor_:
+Installs the modules and scripts to have the conservative governor from boot; It's a governor that have the lowest power consumption at all, it's a little slower to raise frequencies in comparison with the Interactive or Ondemand, but have the lowest power consumption
+
+_install Interactive Governor_:
+Installs the Interactive governor, a little faster of Conservative, but more pwer hungry (still less than ondemand)
+
+NB: for Governors, credits goes to nadlabak http://android.doshaska.net/ here you see all the article for governors
+
+_install Jitv7_:
+This will install the latest froyo's jit, directly from samdroid, it's more stable and reliable than the obsolete one from GOTs OR
+
+_install ADBDBoot_:
+This will install a little hack that starts at boot, and will allow adb to start directly as Root! (without to have root installed BTW)very nice utility
+
+*_install RecoveryBoot_*:
+This is the newest news from 1.42 openrecovery!
+You can boot into recovery without pass for the original one! this will substitute the original one at the boot, and will boot directly in OpenRecovery! A very neat feature!
+
+_nb_: if you wipe cache, you have to boot another time in recovery as the command to boot directly in recovery is in cache!
+
+Then there will be some modding menus:
+
+_overclock menu_:
+A lot of choice for you!
+There is for all flavours; all overclocks are undervolted from the first to the 800mhz one, 900 mhz and 1000 mhz are at original vsel, and for 1,1ghz we have a little overvolt; even with original vsel (or overvolt) all other steps are sightly UNdervolted!
+Battery consumption is less even at 1,1ghz!
+550mhz step is only a undervolt, 550mhz with 38vsel (vs original 56)
+
+steps are: 
+550mhz (undervolt only)
+
+650mhz
+
+750mhz (x2 one from 125mhza and one starting at 250)
+
+800mhz (x2)
+
+900mhz(x2)
+
+1ghz (x2)
+
+1,1ghz (x2)
+
+
+_BusyBox menu_:
+Installs busybox in /data /sbin and /xbin
+
+_menu App2sd_:
+To install app2sd, split memory cards, and use app2sd both in original and symplink edition!
+
+_Menu Install theme_:
+To install the theme or restore the old one!
+
+After those, here is the *Froyo Modding menu*:
+
+_App2sd_ menu dedicated to app2sd for froyo images;
+
+After that we have 2 menus: One for Motofrenzy and one for cyanogen
+
+*For both*:
+We have
+_install conservative overclock_
+_Menu overclock_; one with 650,800 ad 1ghz steps (Motofrenzy) and one with650/800/900/1000/1100 steps (with Cyano) in 2 version each one! One starting from 125mhz and one starting from 250mhz, a very wide choice for any flavour! 
+
+*For CyanogenMOD*
+Additionally to those menus, we have also:
+
+_Install Memhack_:
+
+To install memhack as nadlabak forgot to include it in its buil, so we can add it;
+
+_Change Pixel Density_:
+
+This will trick the Android system and emulate a higer (or lower) resolution!:
+the original set is 240; we can go for 220,200,190 (very high resoltion this way) or incerase it to 260,280 for Big Icons and fonts!
+This use a hack in BUild.prop, so it's FOR NOW compatible only with Cyanogen mod
+
+*For Motofrenzy*
+To originl menu it has a little hack:
+
+_Auto off Buttons Led_:
+
+It will start a daemon that will automatically shut off buttons led after a while, sparing some juicy battery life!!!
+Credits to Azhad for this!
+
+*TO THE MAIN MENU:*
+
+We added the option to *_wipe ext2 partition_* For who have app2sd and want to format his ext2 partition!
+
+*HOW TO THEME:*
+
+To install a theme, before using the recovery menu, we have to load a theme:
+Under the Directory /sdcard/OpenRecovery, there is a directory theme;
+IF you want to install a eclair theme; go to the "Eclair" folder and put the files in their respective directories,
+IF you want a Froyo theme, go to Froyo and put files in their respective directories.
