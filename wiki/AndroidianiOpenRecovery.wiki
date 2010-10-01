@@ -28,6 +28,9 @@ NB: for Governors, credits goes to nadlabak http://android.doshaska.net/ here yo
 _install Jitv7_:
 This will install the latest froyo's jit, directly from samdroid, it's more stable and reliable than the obsolete one from GOTs OR
 
+*NEW*_install flac support_
+This will install libraries and framework.jar, so the rom will support also the playback of .flac files!
+
 _install ADBDBoot_:
 This will install a little hack that starts at boot, and will allow adb to start directly as Root! (without to have root installed BTW)very nice utility
 
@@ -60,6 +63,26 @@ steps are:
 
 1,1ghz (x2)
 
+*NEW*
+_Scripts menu_:
+This is a menu where you can find the most important script utility for your milestone!
+All of them will be installe din /system/xbin and can be used both from adb or a terminal emulator.
+thw choice is:
+To install _Nano editor_: very neat utility (recommended using adb as is not confortable on small milestone screen), a text editor commandline.
+
+Install _Camerasound on/off_: this little script will shut off or on you camera sounds (type *soundon or soundoff* in terminal/adb)
+
+Install _Mount/unmount system scripts_: will install 2 little script to mount system in Read/write (*mountrw*) or Read/Only (*mountro*)
+
+Install _switch bootanimation script_: little script (*switchba*) to swap your bootanimation with one on you sdcard (must be in the root, and named "bootanimation.zip")
+
+Install _Movecache script_: with this script (*movecache*) you can move the cache from /cache to sdcard (freeing a lot of space!)
+
+Install _Show/Hide ads_: this will install 2 script (*showads* and *blockads*) that will enable/disable the ads in the system (IN THE APPLICATIONS FOR EXAMPLE)
+
+Install _Bash_: alternative to Busybox, or you can install both altogether just tpe *bash* in adb/terminal
+
+Install _Zipalign script_: this will install a script (*zipalign_apks*) that will zipalign all system apks (see below for info on zipaligning)
 
 _BusyBox menu_:
 Installs busybox in /data /sbin and /xbin
@@ -101,6 +124,20 @@ _Auto off Buttons Led_:
 
 It will start a daemon that will automatically shut off buttons led after a while, sparing some juicy battery life!!!
 Credits to Azhad for this!
+
+NEW *ZIPALIGN MENU*
+This menu is splitted in 3 parts:
+
+Only data partition-> zipalign only on /data/app and /data/app-private
+
+Only system partition-> zipalign only on /system/app and /system/framework
+
+Both of them
+
+zipaligning is a procedure, where the apk is very optimized. The purpose is to ensure that all uncompressed data starts with a particular alignment relative to the start of the file.Specifically, it causes all uncompressed data within the .apk, such as images or raw files, to be aligned on 4-byte boundaries. This allows all portions to be accessed directly with mmap() even if they contain binary data with alignment restrictions. The benefit is a reduction in the amount of RAM consumed when running the application.
+
+*THIS IS COMPATIBLE WITH BOTH ECLAIR AND FROYO*
+(on Cyanogen is useless as is already zipaligned!!
 
 *TO THE MAIN MENU:*
 
