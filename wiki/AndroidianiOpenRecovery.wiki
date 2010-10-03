@@ -22,7 +22,7 @@ _install Conservative governor_:
 Installs the modules and scripts to have the conservative governor from boot; It's a governor that have the lowest power consumption at all, it's a little slower to raise frequencies in comparison with the Interactive or Ondemand, but have the lowest power consumption
 
 _install Interactive Governor_:
-Installs the Interactive governor, a little faster of Conservative, but more pwer hungry (still less than ondemand)
+Installs the Interactive governor, a little faster of Conservative, but more power hungry (still less than ondemand)
 
 NB: for Governors, credits goes to nadlabak http://android.doshaska.net/ here you see all the article for governors
 
@@ -150,6 +150,9 @@ To install a theme, before using the recovery menu, we have to load a theme:
 Under the Directory /sdcard/OpenRecovery, there is a directory theme;
 IF you want to install a eclair theme; go to the "Eclair" folder and put the files in their respective directories,
 IF you want a Froyo theme, go to Froyo and put files in their respective directories.
-
+Then in the recovery you will find the right Theme menu under:
+Eclair -> Theme
+Froyo -> MotoFrenzy -> Theme
+Froyo -> CyanogenMod -> Theme
 
 By 89luca89
