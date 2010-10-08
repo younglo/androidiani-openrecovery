@@ -102,8 +102,10 @@ After that we have 2 menus: One for Motofrenzy and one for cyanogen
 
 *For both*:
 We have
-_install conservative overclock_
-_Menu overclock_; one with 650,800 ad 1ghz steps (Motofrenzy) and one with650/800/900/1000/1100 steps (with Cyano) in 2 version each one! One starting from 125mhz and one starting from 250mhz, a very wide choice for any flavour! 
+_install conservative governor_
+_install interactive governor_
+
+_ALL THE OVERCLOCKS ARE THE SAME AS IN ECLAIR SO READ ABOVE FOR THEM_
 
 *For CyanogenMOD*
 Additionally to those menus, we have also:
@@ -112,11 +114,6 @@ _Install Memhack_:
 
 To install memhack as nadlabak forgot to include it in its buil, so we can add it;
 
-_Change Pixel Density_:
-
-This will trick the Android system and emulate a higer (or lower) resolution!:
-the original set is 240; we can go for 220,200,190 (very high resoltion this way) or incerase it to 260,280 for Big Icons and fonts!
-This use a hack in BUild.prop, so it's FOR NOW compatible only with Cyanogen mod
 
 *For Motofrenzy*
 To originl menu it has a little hack:
@@ -125,6 +122,10 @@ _Auto off Buttons Led_:
 
 It will start a daemon that will automatically shut off buttons led after a while, sparing some juicy battery life!!!
 Credits to Azhad for this!
+
+_Scripts menu_:
+
+it's a link to the Eclair one is the same, so read above!
 
 NEW *ZIPALIGN MENU*
 This menu is splitted in 3 parts:
@@ -139,6 +140,38 @@ zipaligning is a procedure, where the apk is very optimized. The purpose is to e
 
 *THIS IS COMPATIBLE WITH BOTH ECLAIR AND FROYO*
 (on Cyanogen is useless as is already zipaligned!!
+
+NEW *UNIVERSAL PIXEL DENSITY MOD*
+This menu allows to simply apply the Res-hack that consist in "tricking" android and letting him think that we have a much higer res screen...so LOWING the number we INCERASE the resolution!
+200 is the best for milestone so far, 190 is the lowes accettable and 240 is the standard...
+this mod can also be used to INCERASE the button's size! setting it HIGHER than 240 will make buttons and all the system "bigger"...perfect to who do not see well, or simply prefer big buttons! ;D
+
+*THIS IS COMPATIBLE WITH BOTH ECLAIR AND FROYO*
+
+NEW *MENU APP*
+This menu is very very brilliant, it allows to  copy and delete application to and from /system/apps, /data/apps (with ext2 apps2sd support), and an app folder in the recovery. With that you can:Delete system and user apps, with or without data, Copy apps from internal memory to system, Copy apps to Recovery, 
+Copy apps from Recovery to Internal or System memory and now also UPGRADE apps in recovery!
+This tool is very very useful as a Backupping tool, as a Modding tool (to mod system apps) and a beautiful app-manager tool (to bring and move apps from data to system or vice-versa)
+
+*THIS IS COMPATIBLE WITH BOTH ECLAIR AND FROYO*
+
+NEW *UTILITY MENU*
+
+In this menu are grouped all the small (and not so small xD) utility for BOTH ECLAIR AND FROYO:
+
+_BLOCK ADDS_: blocks adds in the whole system, both in browser and apps!
+
+_SCANDISK SD_: does the scandisc on your sd, very handy in some situations!
+
+_SCANDISK EXT2_:as before, only for app2sd users obviously!
+
+_ECLAIR/FROYO KERNEL TUNING SCRIPT_: as the name says, this is a VERY beautiful script that I tweaked a bit from original (from kholk & xslntx on XDA) that encache the performance and the soothness of our mileston A LOT...it also improves 3d managment and all the experience is much more smoother and faster!
+
+_FIX PERMISSION APKS TO PREVENT FORCE CLOSES_:this is a very handy tool! this will re-set all permission in all apks in the entire system (system, data and for app2sd and froyo even sd) to prevent sudden FC in apps!
+
+_SHOW FREE SPACE_:will display your free sd card and flash memory space :D
+
+*THIS IS COMPATIBLE WITH BOTH ECLAIR AND FROYO*
 
 *TO THE MAIN MENU:*
 
