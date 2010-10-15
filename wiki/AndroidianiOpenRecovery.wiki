@@ -141,6 +141,19 @@ zipaligning is a procedure, where the apk is very optimized. The purpose is to e
 *THIS IS COMPATIBLE WITH BOTH ECLAIR AND FROYO*
 (on Cyanogen is useless as is already zipaligned!!
 
+NEW *UNIVERSAL CAMCORDER RESOLUTION MOD*
+This menu is present in all Eclair/Froyo menu, this hack will let you to choose wether to record in:
+
+720x400--> Fit the screen resolution
+
+720x480--> Default standard resolution
+
+720x576--> Standard PAL resolution (nice if you want to see it on a TV Pal, while 720/480 fits better for a new 16:9 TV)
+
+Those hacks includes also the 30fps hack, tweakings to the audio and video quality and bitrate! 
+
+*THIS IS COMPATIBLE WITH BOTH ECLAIR AND FROYO*
+
 NEW *UNIVERSAL PIXEL DENSITY MOD*
 This menu allows to simply apply the Res-hack that consist in "tricking" android and letting him think that we have a much higer res screen...so LOWING the number we INCERASE the resolution!
 200 is the best for milestone so far, 190 is the lowes accettable and 240 is the standard...
@@ -187,5 +200,21 @@ Then in the recovery you will find the right Theme menu under:
 Eclair -> Theme
 Froyo -> MotoFrenzy -> Theme
 Froyo -> CyanogenMod -> Theme
+
+*NEW RECOVERY THEMES*
+To install a recovery theme, you simply have to go in -stettings-theme and choose what to install :-)
+We for now have 4 themes for you:
+
+_Original THEME_: the original AndroidianiOpenRecovery theme, white on black fonts(simple)
+
+_AZHAD Theme_:a very nice theme, based on Black with RED fonts and Green LED status
+
+_89Luca89 THEME_:This one is based on Original OpenRecovery theme, a DroidEYE background with blue fonts GREEN LED status.
+
+_FANTASY THEME by 89Luca89_:This one is the most visual of them, features a beautiful fantasy background with red fonts and VIOLET status LED
+
+Theming the recovery is very nice because gives you the possibility to have a custom milestone EVEN in the recovery :-D
+In fact There will be much more themes in nex release!
+
 
 By 89luca89
