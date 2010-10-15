@@ -15,6 +15,10 @@ The open recovery, has a clear menu, easy to use, for Eclair modding and one for
 So starting from *Eclair Modding Menu*:
 Entering this menu you'll see:
 
+
+_Install Recovery at Boot_:
+Will install a boot script that will let you to Boot your recovery directly in OpenRecovery instead of passing per Update.zip!!
+
 _install memhack_:
 Installs the hack to move Dalvik cache from /data to /cache, freeing a lot of space for apps!!
 
@@ -98,34 +102,27 @@ After those, here is the *Froyo Modding menu*:
 
 _App2sd_ menu dedicated to app2sd for froyo images;
 
-After that we have 2 menus: One for Motofrenzy and one for cyanogen
-
-*For both*:
 We have
 _install conservative governor_
 _install interactive governor_
 
 _ALL THE OVERCLOCKS ARE THE SAME AS IN ECLAIR SO READ ABOVE FOR THEM_
 
-*For CyanogenMOD*
-Additionally to those menus, we have also:
-
 _Install Memhack_:
-
-To install memhack as nadlabak forgot to include it in its buil, so we can add it;
-
-
-*For Motofrenzy*
-To originl menu it has a little hack:
 
 _Auto off Buttons Led_:
 
 It will start a daemon that will automatically shut off buttons led after a while, sparing some juicy battery life!!!
-Credits to Azhad for this!
+Credits to Azhad for this! -> Recommended to MotoFrenzy
 
 _Scripts menu_:
 
 it's a link to the Eclair one is the same, so read above!
+
+_Install Recovery at Boot_:
+Will install a boot script that will let you to Boot your recovery directly in OpenRecovery instead of passing per Update.zip!!!
+
+
 
 NEW *ZIPALIGN MENU*
 This menu is splitted in 3 parts:
