@@ -1,0 +1,1 @@
+http://modmymobile.com/forums/563-motorola-milestone-roms/554590-image-v0-52-13-sep-2010-motofrenzy-froyo-2-2-milestone.html
